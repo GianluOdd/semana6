@@ -1,0 +1,21 @@
+package mantenimiento;
+
+import bean.Usuario;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+
+
+public class GestorUser {
+	
+	public Usuario obtenerUsuario(Usuario user) {
+		
+		Usuario usuario = null;
+		
+		Connection con = null;
+		
+		return usuario;
+	}
+
+}

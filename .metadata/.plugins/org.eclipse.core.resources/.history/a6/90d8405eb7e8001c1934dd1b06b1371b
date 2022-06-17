@@ -1,0 +1,33 @@
+package mantenimiento;
+
+import bean.Usuario;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+
+
+public class GestorUser {
+	
+	public Usuario obtenerUsuario(Usuario usu) {
+		
+		Usuario usuario = null;
+		
+		Connection con = null;
+		PreparedStatement pst = null;
+		ResultSet rs= null;
+		
+		try {
+			
+			con = MySQLConexion.getConexion();
+			
+			
+		}catch(Exception e){
+			
+		}
+		
+		return usuario;
+	}
+
+}

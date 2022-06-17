@@ -1,0 +1,18 @@
+package mantenimiento;
+
+import bean.Usuario;
+
+
+
+public class GestorUser {
+	
+	public Usuario obtenerUsuario(Usuario user) {
+		
+		Usuario usuario = null;
+		
+		Connection con = null;
+		
+		return usuario;
+	}
+
+}

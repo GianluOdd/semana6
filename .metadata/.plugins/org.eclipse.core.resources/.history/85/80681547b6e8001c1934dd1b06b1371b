@@ -1,0 +1,12 @@
+package bean;
+
+public class Persona {
+	
+	private int rut;
+	private String nombre;
+	private String apellido;
+	private int telefono;
+	private int fechaIngreso;
+	
+
+}

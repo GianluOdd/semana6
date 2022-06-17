@@ -1,0 +1,7 @@
+package mantenimiento;
+
+import bean.Usuario;
+
+public class GestorUser {
+
+}

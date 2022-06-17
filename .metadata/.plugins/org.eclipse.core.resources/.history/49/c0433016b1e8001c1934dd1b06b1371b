@@ -1,0 +1,25 @@
+package programa;
+
+import java.sql.Connection;
+
+public class Conexion {
+	public static Connection getConexion() {
+		
+		Connection con = null;
+		
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			String url = "jdbc:mysql://localhost/Driver/db_preuba";
+			String usuario = "root";
+			String contraseña = "root";
+			
+		} catch (ClassNotFoundException e) {
+			
+			e.printStackTrace();
+		}
+		
+		
+		return null;
+	}
+
+}

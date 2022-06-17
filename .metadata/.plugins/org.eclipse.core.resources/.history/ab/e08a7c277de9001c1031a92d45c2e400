@@ -1,0 +1,24 @@
+package formularios;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import bean.Usuario;
+
+class frmLoginTest {
+
+	@Test
+	public void UsuarioClave() {
+		
+		Usuario usuario = new Usuario(01,"Goddone","Gianluca123");
+		assertEquals();
+		
+		
+	
+		
+		
+		
+	}
+
+}

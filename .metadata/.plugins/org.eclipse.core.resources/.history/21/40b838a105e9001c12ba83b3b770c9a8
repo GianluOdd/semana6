@@ -1,0 +1,19 @@
+package formularios;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class frmLoginTest {
+
+	@Test
+	public void UsuarioClave() {
+		
+		
+	
+		
+		
+		
+	}
+
+}
